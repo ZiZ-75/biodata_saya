@@ -1,0 +1,67 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(98, 196, 99);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio_container {
+  background: rgb(10, 87, 11); 
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.biodata-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  font-size: 22px;
+  color: white;
+}
+
+img {
+  width: 155px;
+  height: 155px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+h2:hover {
+  transform: scale(1.1);
+color: blue;
+}
+
+.bio_isi {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.bio_row {
+  justify-content: center;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 5px 0;
+}
+
+.bio_row strong {
+  flex: 1;
+  text-align: left;
+}
+
+.bio_row span {
+  flex: 2;
+  text-align: left;
+}
